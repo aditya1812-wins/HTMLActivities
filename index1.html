@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- This is the document type declaration. It tells the browser this is an HTML5 page -->
+
+<html lang="en">
+<!-- The <html> tag is the root element that wraps the entire webpage -->
+
+<head>
+  <!-- The <head> section contains information about the page (not visible on screen) -->
+
+  <meta charset="UTF-8" />
+  <!-- charset="UTF-8" allows the page to display all characters and symbols correctly -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- This makes the page look good on mobile devices -->
+
+  <title>Learning HTML Comments</title>
+  <!-- The <title> sets the text shown on the browser tab -->
+
+</head>
+
+<body>
+  <!-- The <body> contains everything that is visible on the webpage -->
+
+  <header>
+    <!-- The <header> tag holds the top section of the page -->
+    <h1>Welcome to My Webpage</h1>
+    <!-- <h1> is the largest heading. Use only one <h1> per page -->
+  </header>
+
+  <nav>
+    <!-- The <nav> tag is used for navigation links -->
+    <a href="#about">About</a> |
+    <a href="#hobbies">Hobbies</a> |
+    <a href="#contact">Contact</a>
+    <!-- Each <a> tag creates a clickable link. href="#id" jumps to that section -->
+  </nav>
+
+  <main>
+    <!-- The <main> tag wraps the primary content of the page -->
+
+    <!-- ======= ABOUT SECTION ======= -->
+    <section id="about">
+      <!-- <section> groups related content together. The id is used by nav links -->
+      <h2>About Me</h2>
+      <p>Hi! My name is <strong>Alex</strong> and I am learning HTML.</p>
+      <!-- <strong> makes text bold. <p> is a paragraph tag -->
+    </section>
+
+    <!-- ======= HOBBIES SECTION ======= -->
+    <section id="hobbies">
+      <h2>My Hobbies</h2>
+      <p>Here are some things I enjoy:</p>
+
+      <ul>
+        <!-- <ul> is an unordered (bulleted) list -->
+        <li>Reading books</li>   <!-- <li> is a list item -->
+        <li>Playing chess</li>
+        <li>Coding</li>
+      </ul>
+
+      <!-- This is an ordered (numbered) list using <ol> -->
+      <p>My top 3 programming languages:</p>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+    </section>
+
+    <!-- ======= CONTACT SECTION ======= -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <!-- The mailto: link opens the user's email app when clicked -->
+      <p>Email: <a href="mailto:alex@example.com">alex@example.com</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <!-- The <footer> appears at the bottom of the page -->
+    <p>&copy; 2026 Alex. All rights reserved.</p>
+    <!-- &copy; is an HTML entity that displays the © copyright symbol -->
+  </footer>
+
+</body>
+<!-- End of the visible page content -->
+
+</html>
+<!-- End of the HTML document -->
